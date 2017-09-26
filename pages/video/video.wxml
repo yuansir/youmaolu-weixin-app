@@ -1,0 +1,11 @@
+<view class="container">
+ <view class="vol-card" wx:for="{{videos}}" wx:key="{{ID}}">
+  <video src="{{item.QiniuUrl}}"  controls="true" class="vol-picture"></video>
+    <view class="vol-meta">
+      <text class="vol-author">{{item.Meta.Title}}</text>
+    </view>
+    <view class="vol-content">
+      <text class="vol-content-text">{{item.Meta.Overview}}</text>
+    </view>
+  </view>
+</view>

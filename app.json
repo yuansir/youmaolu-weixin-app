@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/gif/gif",
+    "pages/image/image",
+    "pages/video/video",
+    "pages/product/product"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "有猫撸",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "selectedColor":"#1AAD16",
+    "backgroundColor":"#eeeeee",
+    "borderStyle":"white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath":"./assets/images/tabbar/no-select/home.png",
+        "selectedIconPath":"./assets/images/tabbar/selected/home.png",
+        "text": "社区"
+      },
+      {
+        "pagePath": "pages/image/image",
+        "iconPath": "./assets/images/tabbar/no-select/image.png",
+        "selectedIconPath": "./assets/images/tabbar/selected/image.png",
+        "text": "猫片"
+      },
+      {
+        "pagePath": "pages/gif/gif",
+        "iconPath": "./assets/images/tabbar/no-select/gif.png",
+        "selectedIconPath": "./assets/images/tabbar/selected/gif.png",
+        "text": "猫动图"
+      },
+      {
+        "pagePath": "pages/video/video",
+        "iconPath": "./assets/images/tabbar/no-select/video.png",
+        "selectedIconPath": "./assets/images/tabbar/selected/video.png",
+        "text": "猫视频"
+      },
+      {
+        "pagePath": "pages/product/product",
+        "iconPath": "./assets/images/tabbar/no-select/product.png",
+        "selectedIconPath": "./assets/images/tabbar/selected/product.png",
+        "text": "猫市"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

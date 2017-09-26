@@ -1,0 +1,35 @@
+.items {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.vol-card {
+  width: calc(50% - 12px);
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ebebeb;
+}
+
+.vol-header {
+  width: 100%;
+  height: 300rpx;
+  position: relative;
+}
+
+.vol-cover {
+  width: 100%;
+  height: 300rpx;
+}
+
+.vol-desc {
+  padding: 5px 3px;
+}
+
+.vol-content {
+  font-size: 12px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}

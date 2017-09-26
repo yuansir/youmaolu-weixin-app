@@ -1,0 +1,14 @@
+<view class="container">
+ <view class="vol-card" wx:for="{{products}}" wx:key="{{ID}}">
+  <image src="{{item.QiniuUrl}}"  controls="true" class="vol-picture"></image>
+    <view class="vol-meta">
+      <text class="vol-author">{{item.Meta.Title}}</text>
+    </view>
+    <view class="vol-content">
+      <text class="vol-content-text">{{item.Meta.Overview}}</text>
+    </view>
+    <view class="vol-makettime">
+      <button type="default"  data-link="{{item.ProductUrl}}" bindtap="copyLink" hover-class="button-hover"> 点击复制购买链接 </button>
+    </view>
+  </view>
+</view>

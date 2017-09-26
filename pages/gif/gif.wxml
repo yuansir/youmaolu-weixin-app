@@ -1,0 +1,14 @@
+<view class="container">
+  <view class="items">
+    <block  wx:for="{{gifs}}" wx:key="{{ID}}">
+      <view class="vol-card" data-src="{{item.QiniuUrl}}" bindtap="show">
+        <view class="vol-header">
+          <image lazy-load="{{true}}" class="vol-cover" mode="scaleToFill" src="{{item.QiniuUrl}}"></image>
+        </view>
+        <view class="vol-desc">
+          <text class="vol-content">{{item.Meta.Title}}</text>
+        </view>
+      </view>
+    </block>
+  </view>
+</view>
