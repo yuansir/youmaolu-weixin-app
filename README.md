@@ -4,4 +4,4 @@
 
 ## 截图
 
-![1506489039105](https://ws1.sinaimg.cn/large/006tKfTcgy1fjy7mjduu7g30hg0vaqva.gif)
+![1506489039105](https://ws2.sinaimg.cn/large/006tKfTcgy1fjy7v6gj05g306l0bthdt.gif)
